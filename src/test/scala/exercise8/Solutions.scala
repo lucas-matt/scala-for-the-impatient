@@ -2,8 +2,6 @@ package exercise8
 
 import org.scalatest.FlatSpec
 import org.scalatest.matchers.ShouldMatchers
-import java.awt.Rectangle
-import javafx.scene.shape.Circle
 
 class Solutions extends FlatSpec with ShouldMatchers {
 
