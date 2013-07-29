@@ -3,13 +3,6 @@ package exercise5
 import org.scalatest.FlatSpec
 import org.scalatest.matchers.ShouldMatchers
 
-/**
- * Created with IntelliJ IDEA.
- * User: lucas
- * Date: 7/29/13
- * Time: 2:16 PM
- * To change this template use File | Settings | File Templates.
- */
 class Solutions extends FlatSpec with ShouldMatchers {
 
   "(1) An improved Counter class (section 5.1)" should "not turn negative at Int.MaxValue" in {

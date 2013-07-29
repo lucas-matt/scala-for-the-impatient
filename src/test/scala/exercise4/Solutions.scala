@@ -3,13 +3,6 @@ package exercise4
 import org.scalatest.matchers.ShouldMatchers
 import org.scalatest.FlatSpec
 
-/**
- * Created with IntelliJ IDEA.
- * User: lucas
- * Date: 7/29/13
- * Time: 1:38 PM
- * To change this template use File | Settings | File Templates.
- */
 class Solutions extends FlatSpec with ShouldMatchers {
 
   "(1) Setting up a map of gizmos -> prices and producing a second map with a 10% discount" should "look like" in {
