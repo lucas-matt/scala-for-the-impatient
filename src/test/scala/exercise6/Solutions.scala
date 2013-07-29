@@ -51,7 +51,7 @@ class Solutions extends FlatSpec with ShouldMatchers {
     fail()
   }
 
-  "(8) An RGB enumeration" should "describe the eight corners of the color cube, as ID's use the color values for example 0xff0000 for Red" in {
+  "(8) An RGB enumeration" should "describe the eight corners of the color cube. As ID's use the color values for example 0xff0000 for Red" in {
     fail()
   }
 
