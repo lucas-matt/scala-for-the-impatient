@@ -76,7 +76,7 @@ class Solutions extends FlatSpec with ShouldMatchers {
 
         frequencies(c) = frequencies.getOrElse(c,0) + 1
 
-      Why won't this work?
+      Why won't this work?                                                                   ermin
 
       Will it work if he instead uses :
 
