@@ -21,7 +21,7 @@ class Solutions extends FlatSpec with ShouldMatchers {
     fail()
   }
 
-  "(3) You" oshould "make the example in section 22.7 into an iterator. The constructor should contain the reset and next should invoke the continuation" in {
+  "(3) You" should "make the example in section 22.7 into an iterator. The constructor should contain the reset and next should invoke the continuation" in {
     fail()
   }
 
@@ -52,7 +52,7 @@ class Solutions extends FlatSpec with ShouldMatchers {
            println(cont())
          }
 
-      Compile with the -Xprint:selectivecps flag and look at the generated code. How is the while statement treated when transformed to CPS?""" in {
+      Compile with the -Xprint:selectivecps flag, you""" should "look at the generated code. How is the while statement treated when transformed to CPS?" in {
     fail()
   }
 

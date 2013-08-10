@@ -1,0 +1,4 @@
+hat cat mat prat sat
+hat cat mat sat
+sat mat
+cat hat bat
