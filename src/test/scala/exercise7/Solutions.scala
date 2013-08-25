@@ -16,6 +16,7 @@ class Solutions extends FlatSpec with ShouldMatchers{
    """ in {
     import com.horstmann.impatient.FlatPackaged
     import com.horstmann.impatient.MultilinePackaged
+    null
   }
 
   "(3) A package 'random'" should """contain the functions :

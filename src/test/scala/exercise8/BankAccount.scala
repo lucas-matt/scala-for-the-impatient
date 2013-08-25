@@ -2,16 +2,20 @@ package exercise8
 
 class BankAccount(initialBalance: Double) {
 
-  private var balance = initialBalance
+  protected var _balance = initialBalance
 
   def deposit(amount:Double) = {
-    balance += amount
-    balance
+    _balance += amount
+    _balance
   }
 
   def withdraw(amount:Double) = {
-    balance -= amount
-    balance
+    _balance -= amount
+    _balance
+  }
+
+  def balance = {
+    _balance
   }
 
 }
